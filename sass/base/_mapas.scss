@@ -1,0 +1,16 @@
+/* mapas */
+
+$card-otras: (
+    bg-otras: withe,
+    color-otras: black,
+    border-otras: 2px solid red,
+);
+
+.cardOtras{
+    background-color: map-get($map: $card-otras, $key: bg-otras);
+    color: map-get($map: $card-otras, $key: color-otras);
+    border: map-get($map: $card-otras, $key: border-otras );
+}
+
+
+

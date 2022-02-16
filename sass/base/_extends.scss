@@ -1,0 +1,20 @@
+/* extends */
+
+%boton {
+    border: 1px solid red;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.cardInicio{
+    button{
+        @extend %boton;
+    }
+
+}
+.cardOtras{
+    button{
+        @extend %boton;
+    }
+    
+}

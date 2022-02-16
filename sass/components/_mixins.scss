@@ -1,0 +1,9 @@
+@mixin card {
+    .cardInicio{
+        border: solid 1px black;
+        border-radius: 10px;
+        h3{
+            font-size: 1em;
+        }
+    }    
+}

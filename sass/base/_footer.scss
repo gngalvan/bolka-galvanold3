@@ -1,0 +1,34 @@
+@import "../components/variables";
+
+
+/* footer */
+
+footer{
+    margin-top: 90px;
+    background-color: $color-principal;
+    color: $color-secundario;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    h4{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        font-size: 1em;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            margin: 10px;
+        }
+    }
+    h5{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        font-size: 0.8em;
+    }
+}
+
+
